@@ -25,9 +25,9 @@ public class Estrutura extends JFrame {
         add(painelConteudo, BorderLayout.CENTER);
         add(menu, BorderLayout.EAST);
 
-        setVisible(true);
-
         carregarLista();
+
+        setVisible(true);
     }
 
     public void trocarTela(JPanel novaTela) {
